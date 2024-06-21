@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+.bg{
+    background-image: url("https://img.freepik.com/free-photo/close-up-person-suffering-from-depression_23-2151007948.jpg?t=st=1718434554~exp=1718438154~hmac=7d3c495df74deec644d45f0e83efa106b80e53feed73d93300a8e5e579e2fde4&w=1060");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    color: beige;
+    padding: 80px;
+}
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 193, 78);
+    border-style: none;
+    font-size:large;
+}
+
+*{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+
+}
+.main{
+   background-color: #555;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+
+}
+.main .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.main .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.main .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.main .box-container .box img{
+    height: 80px;
+}
+
+.main .box-container .box h3{
+    color: #444;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.main .box-container .box p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.main .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 5px ;
+    padding: 8px 25px;
+}
+.main .box-container .box .btn:hover{
+    letter-spacing: 1px;
+
+}
+.main .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+@media (max-width:768px){
+    .container{
+        padding: 20px;
+    }
+}
